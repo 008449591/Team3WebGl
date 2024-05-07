@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Multiplication</title>
+    <title>Unity WebGL Player | Rapid Multiplication</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Multiplication</div>
+        <div id="unity-build-title">Rapid Multiplication</div>
       </div>
     </div>
     <script>
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Multiplication.loader.js";
+      var loaderUrl = buildUrl + "/src.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Multiplication.data.gz",
-        frameworkUrl: buildUrl + "/Multiplication.framework.js.gz",
-        codeUrl: buildUrl + "/Multiplication.wasm.gz",
+        dataUrl: buildUrl + "/src.data.gz",
+        frameworkUrl: buildUrl + "/src.framework.js.gz",
+        codeUrl: buildUrl + "/src.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Rabbit",
-        productName: "Multiplication",
+        companyName: "DefaultCompany",
+        productName: "Rapid Multiplication",
         productVersion: "1.0.2",
         showBanner: unityShowBanner,
       };
